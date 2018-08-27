@@ -1,0 +1,69 @@
+"*":
+  "atom-beautify":
+    general:
+      _analyticsUserId: "1b2b159c-8e25-4cb8-829d-bb1b0a41ab24"
+      beautifyEntireFileOnSave: false
+    js:
+      space_after_anon_function: true
+    json:
+      space_after_anon_function: true
+    python:
+      default_beautifier: "pybeautifier"
+    xml:
+      default_beautifier: "JS Beautify"
+      wrap_line_length: 80
+  "autocomplete-plus": {}
+  core:
+    closeEmptyWindows: false
+    disabledPackages: [
+      "welcome"
+    ]
+    projectHome: "/Users/raphael/projects"
+    restorePreviousWindowsOnStart: "no"
+    telemetryConsent: "limited"
+    themes: [
+      "one-light-ui"
+      "solarized-light-syntax"
+    ]
+    titleBar: "custom"
+    uriHandlerRegistration: "always"
+    warnOnLargeFileLimit: 10
+  editor:
+    autoIndentOnPaste: false
+    invisibles: {}
+    scrollPastEnd: true
+    showIndentGuide: true
+    tabType: "soft"
+  "exception-reporting":
+    userId: "097ee191-3f25-bc79-c62a-b38f8174c754"
+  "git-diff":
+    showIconsInEditorGutter: true
+  hex: {}
+  "highlight-selected":
+    highlightBackground: true
+    ignoreCase: true
+    onlyHighlightWholeWords: false
+  linter: {}
+  "linter-ui-default": {}
+  "markdown-preview": {}
+  metrics:
+    userId: "2e3c576f1e3a1ab7045e6aeadf5ebde6ff1e25a4"
+  minimap:
+    absoluteMode: true
+    plugins:
+      "highlight-selected": true
+      "highlight-selectedDecorationsZIndex": 0
+      pigments: true
+      pigmentsDecorationsZIndex: 0
+  "one-light-ui": {}
+  pigments:
+    groupPaletteColors: "by file"
+  "status-bar": {}
+  tabs:
+    enableVcsColoring: true
+  "tree-view": {}
+  welcome:
+    showOnStartup: false
+  whitespace:
+    ensureSingleTrailingNewline: false
+    removeTrailingWhitespace: false
