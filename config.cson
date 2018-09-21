@@ -43,6 +43,7 @@
     highlightBackground: true
     ignoreCase: true
     onlyHighlightWholeWords: false
+  "lcov-info": {}
   linter: {}
   "linter-ui-default": {}
   "markdown-preview": {}
