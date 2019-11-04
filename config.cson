@@ -18,6 +18,7 @@
     disabledPackages: [
       "welcome"
     ]
+    excludeVcsIgnoredPaths: false
     projectHome: "/Users/raphael/projects"
     restorePreviousWindowsOnStart: "no"
     telemetryConsent: "limited"
@@ -30,6 +31,7 @@
     warnOnLargeFileLimit: 10
   editor:
     autoIndentOnPaste: false
+    fontSize: 13
     invisibles: {}
     scrollPastEnd: true
     showIndentGuide: true
@@ -45,7 +47,8 @@
     onlyHighlightWholeWords: false
   "lcov-info": {}
   linter: {}
-  "linter-ui-default": {}
+  "linter-ui-default":
+    showPanel: true
   "markdown-preview": {}
   metrics:
     userId: "2e3c576f1e3a1ab7045e6aeadf5ebde6ff1e25a4"
@@ -62,7 +65,8 @@
   "status-bar": {}
   tabs:
     enableVcsColoring: true
-  "tree-view": {}
+  "tree-view":
+    squashDirectoryNames: true
   welcome:
     showOnStartup: false
   whitespace:
