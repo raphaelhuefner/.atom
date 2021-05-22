@@ -6,17 +6,32 @@
     js:
       space_after_anon_function: true
     json:
+      brace_style: "end-expand"
+      end_with_newline: true
+      jslint_happy: true
+      keep_array_indentation: true
       space_after_anon_function: true
     python:
       default_beautifier: "pybeautifier"
     xml:
       default_beautifier: "JS Beautify"
       wrap_line_length: 80
+  "auto-dark-mode":
+    autoMode: true
+    darkProfile: "one-dark-ui solarized-dark-syntax"
+    lightProfile: "one-light-ui solarized-light-syntax"
+    notifyOnChange: false
   "autocomplete-plus": {}
   core:
     closeEmptyWindows: false
+    customFileTypes:
+      "source.shell": [
+        "env"
+      ]
     disabledPackages: [
       "welcome"
+      "spell-check"
+      "mojave-dark-mode"
     ]
     excludeVcsIgnoredPaths: false
     projectHome: "/Users/raphael/projects"
@@ -31,7 +46,6 @@
     warnOnLargeFileLimit: 10
   editor:
     autoIndentOnPaste: false
-    fontSize: 13
     invisibles: {}
     scrollPastEnd: true
     showIndentGuide: true
@@ -45,11 +59,10 @@
     highlightBackground: true
     ignoreCase: true
     onlyHighlightWholeWords: false
-  "lcov-info": {}
   linter: {}
-  "linter-ui-default":
-    showPanel: true
-  "markdown-preview": {}
+  "linter-ui-default": {}
+  "markdown-preview":
+    openPreviewInSplitPane: false
   metrics:
     userId: "2e3c576f1e3a1ab7045e6aeadf5ebde6ff1e25a4"
   minimap:
@@ -59,9 +72,18 @@
       "highlight-selectedDecorationsZIndex": 0
       pigments: true
       pigmentsDecorationsZIndex: 0
+  "mojave-dark-mode":
+    notifyOnChange: false
   "one-light-ui": {}
   pigments:
     groupPaletteColors: "by file"
+  "spell-check":
+    addKnownWords: true
+    knownWords: [
+      "Upvest Platitude Pursed Submitd"
+    ]
+    useLocales: false
+    useSystem: false
   "status-bar": {}
   tabs:
     enableVcsColoring: true
